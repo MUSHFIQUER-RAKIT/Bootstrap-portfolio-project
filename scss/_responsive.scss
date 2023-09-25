@@ -1,0 +1,40 @@
+.nav-link:hover {
+  color: $primary !important;
+}
+
+.section1 {
+  height: 90vh;
+  .child1 {
+    font-size: var(--size-9xl);
+  }
+
+  .child2 {
+    font-size: var(--size-5xl);
+    line-height: 3.5rem;
+  }
+  p {
+    font-size: var(--size-md);
+  }
+  .custom-shape-divider-bottom-1695572433 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-bottom-1695572433 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .custom-shape-divider-bottom-1695572433 .shape-fill {
+    fill: #ffffff;
+  }
+  a{
+    font-size: var(--size-xl);
+  }
+}
